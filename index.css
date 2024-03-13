@@ -1,0 +1,507 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 500px;
+    height: 1640px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+
+
+
+
+}
+
+.omelete {
+    width: 450px;
+    height: 200px;
+
+    margin: auto;
+    background-image: url(./pictures/image-omelette.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+.OUT {
+    padding: 10px;
+}
+
+.cont {
+    margin-left: 20px;
+    font-family: outfit;
+}
+
+.pink {
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 170px;
+}
+
+.t1 {
+    color: red;
+    margin-left: 20px;
+    padding-top: 2px;
+}
+
+.ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ul li {
+    font-family: outfit;
+}
+
+#ing {
+    margin-left: 20px;
+    font-family: outfit;
+    font-size: 20px;
+}
+
+.ul2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ul2 li {
+    font-size: 20px;
+    font-family: outfit;
+}
+
+.ins {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: outfit;
+}
+
+.ol ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ol li {
+    font-size: 20px;
+    font-family: outfit;
+}
+
+.nut {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: young-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Adjust the width as needed */
+    margin-left: 10px;
+}
+
+td {
+    /* Adjust border properties as needed */
+    padding: 10px;
+    /* Adjust padding as needed */
+    font-family: outfit;
+    font-size: large;
+}
+
+.line3 {
+
+
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%;
+    margin: auto;
+
+}
+
+.line4 {
+
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%;
+    margin: auto;
+}
+
+.line5 {
+
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:430px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+        height: 2050px;
+        background-color: white;
+
+        border: none;
+
+
+    }
+
+    .omelete {
+        width: 100%;
+        height: 220px;
+        background-image: url(./pictures/image-omelette.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    .OUT {
+        width: 60%;
+        height: 60px;
+        font-family: Young Serif;
+        margin: 30px;
+
+
+
+    }
+
+
+    .cont {
+        font-family: Outfit;
+        margin: 25px;
+
+    }
+
+    .pink {
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        margin-left: 20px;
+        background-color: hsl(330, 100%, 98%);
+
+    }
+
+    .t1 h3 {
+
+        margin: 0 15px;
+
+        width: 70%;
+
+        font-size: 21px;
+        padding: 15px;
+        font-family: Outfit;
+
+
+    }
+
+    .ul ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ul li {
+        font-family: Outfit;
+
+    }
+
+    #ing {
+
+        margin: 20px;
+        padding: 5px;
+        font-size: 30px;
+        font-family: Outfit;
+        /* border: 1px solid green; */
+    }
+
+
+    .ul2 ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ul2 li {
+        font-family: Outfit;
+    }
+
+    .line {
+
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 90%;
+        margin: auto;
+    }
+
+    .ins {
+        /* margin-left: 25px; */
+        margin: 0 0 20px 25px;
+        font-size: 30px;
+        font-family: Outfit;
+        /* border: 1px solid red; */
+        padding: 5px;
+
+    }
+
+    .ol ol {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ol li {
+        font-family: outfit;
+    }
+
+    .line2 {
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .nut {
+        /* margin-left: 25px; */
+        margin: 0 0 20px 25px;
+        font-size: 30px;
+        font-family: Outfit;
+        /* border: 1px solid red; */
+        padding: 5px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        /* Adjust the width as needed */
+        margin-left: 10px;
+    }
+
+    td {
+
+        /* Adjust border properties as needed */
+        padding: 10px;
+        /* Adjust padding as needed */
+        font-family: outfit;
+        font-size: large;
+    }
+
+    .line3 {
+
+
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .line4 {
+
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 90%;
+        margin: auto;
+    }
+
+    .line5 {
+
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        width: 90%;
+        margin: auto;
+    }
+
+    /* td {
+        padding: 10px;
+    }
+ */
+
+
+}
